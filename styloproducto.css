@@ -9,6 +9,10 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #eee8e8;
     color: #333;
+    display:grid;
+   
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
 
 }
 
@@ -48,10 +52,11 @@ body {
 
 .footer {
     display: flex;
-    justify-content: flex-start;
+    justify-content:center;
     background-color: #333;
     flex-direction: row;
     flex-wrap: wrap;
+    
 
 
 }
@@ -103,6 +108,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding:10px;
+    text-align: center;
 }
 
 .productos .card a {
