@@ -85,7 +85,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #fc604c;
+    background-color:#333;
+    color:beige;
     border-radius: 10px;
     border: 1px solid black;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -112,4 +113,12 @@ body {
     text-decoration: none;
     background-color: rgb(8, 240, 124);
     padding: 3px;
+}
+.productos .card a:hover {
+    background-color: beige;
+    color: black;
+}
+.navbar ul a:hover {
+    background-color: #333;
+    color: #fff;
 }
